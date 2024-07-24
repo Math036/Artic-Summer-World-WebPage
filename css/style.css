@@ -1,21 +1,42 @@
 body {
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
+    background-image: url('north-pole.jpg');
   }
 
-.logo{
-  display: block;
-  align-content: center;
-}
+  div{
+    background-color: azure;
+    opacity: 90%;
+    border-radius: 20px;
+  }
 
   @media (min-width: 319px) and (max-width: 480px) {
     body {
       background-color: lightsalmon;
     }
+
+    #Logo{
+      height: auto;
+      width: 300px;
+      display: block;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   @media (min-width: 481px) and (max-width: 1200px) {
     body {
-      background-color: powderblue;
+      /*background-color: powderblue;*/
+      background-image: url('../assets/north-pole.jpg');
+    }
+
+    #Logo{
+      height: auto;
+      width: 300px;
+      display: block;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -23,10 +44,28 @@ body {
     body {
       background-color: limegreen;
     }
+
+    #Logo{
+      height: auto;
+      width: 300px;
+      display: block;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   @media (min-width: 1601px) {
     body {
       background-color: seagreen;
+    }
+
+    #Logo{
+      height: auto;
+      width: 300px;
+      display: block;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
